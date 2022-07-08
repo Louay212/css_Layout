@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Arial,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav img{
+    width: 180px;
+}
+header{
+    width: 80%;
+    margin: 0% auto;
+    padding: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li a {
+    font-weight: 400;
+    color:#747474;
+}
+header nav ul li a:hover {
+    color: #00b39b;
+    font-weight: 700;
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-left: 20px;
+}
+.colorGreen{
+    color:#00b39b;
+}
+main{
+    margin-top: 40px;
+}
+/*main*/
+main .cont{
+    width: 80%;
+   
+    margin: 0 auto;
+}
+.cont img{
+    width: 7%;
+    display:block;
+    margin:0 auto ;
+}
+.cont h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    margin-bottom: 30px;
+}
+.title {
+    text-align: center;
+    position: relative;
+    
+}
+.para{
+    width: 80%; 
+    margin: 0 auto;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 400;
+font-size: 16px;
+} 
+.para p{
+    width: 47%;
+}
+.divTest{
+    margin-top: 100px;
+    
+    width: 40%;
+    height: 350px;
+    background: #00b39b;
+    color: #fff;
+    
+    font-weight: 400;
+    
+    box-sizing: inherit;
+    margin-left: 200px;
+    border-radius: 10px;
+    letter-spacing: -.3px;
+    overflow: visible ;
+    padding: 40px;
+
+}
+h2{
+    font-size: 1.425em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    
+}
+.divTest img{
+    width: 40px;
+    padding-top: 30px;
+    position: relative;
+    
+}
+.p1{
+    width: 220px;
+    font-size: 1em;
+    position: relative;
+}
+select{
+    background-color: #00b39b;
+    background: transparent;
+    font-size: 1.5rem;
+    color: #fff ;
+    width: 70%;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid #fff;
+   
+}
+.country{
+    margin-top: 30px;
+    
+}
+.country select option{
+    color: black;
+}
+.doctor{ margin-top: 100px;
+    font-size: 1.625em;
+    width: 40%;
+    height: 350px;
+    background:#00b;
+    color: #fff;
+    justify-content: center;
+    font-weight: 400;
+    box-sizing: inherit;
+    margin-left: 200px;
+    border-radius: 10px;
+    letter-spacing: -.3px;
+    overflow: visible ;
+    padding: 40px;
+}
+.allCarts{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.clinics{margin-top: 100px;
+    font-size: 1.625em;
+    width: 40%;
+    height: 350px;
+    background:#191818;;
+    color: #fff;
+    justify-content: center;
+    font-weight: 400;
+    box-sizing: inherit;
+    margin-left: 200px;
+    border-radius: 10px;
+    letter-spacing: -.3px;
+    overflow: visible ;
+    padding: 40px;
+}
+
+
+
+
